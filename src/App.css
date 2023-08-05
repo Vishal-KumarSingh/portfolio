@@ -1,0 +1,68 @@
+* {
+  background-color: #edf9fe;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+.SplashScreen {
+  background-color: #001c55;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+}
+
+.splashscreentext {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  background-color: transparent;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.splashscreenname {
+  animation: blink 1s infinite;
+  background-color: transparent;
+  text-align: center;
+  font-family: cursive;
+}
+
+@keyframes blink {
+  0% {
+    color: #fff;
+  }
+  20% {
+    color: #ccc;
+  }
+  40% {
+    color: #aaa;
+  }
+  80% {
+    color: #777;
+  }
+}
+
+.navbar-nav li {
+  margin-right: 30px;
+}
+
+.Header {
+  animation-fill-mode: both;
+  animation-duration: 2000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: react-reveal-23759827100215-2;
+}
+
+.footer-text {
+  width: 100%;
+  color: rgb(127, 141, 170);
+  opacity: 1;
+}
+
+
+.highlight {
+  font-size: 20px;
+  border-bottom: 2px solid olivedrab;
+}
