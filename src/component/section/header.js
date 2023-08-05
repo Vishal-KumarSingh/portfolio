@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 function Header(props) {
     return (
       <div className="Header"> 
@@ -12,23 +12,35 @@ function Header(props) {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto" style={{justifyContent: "flex-end" , width: "100%"}}>
       <li className="nav-item active">
-        <a className="nav-link" href="./">Home <span className="sr-only">(current)</span></a>
+      <Link to="/" >
+        <a className="nav-link">Home <span className="sr-only">(current)</span></a>
+        </Link>
       </li>
      
       <li className={ props.active == "about"?"nav-item active highlight":"nav-item active "}>
-        <a className="nav-link" href="./about">About</a>
+      <Link to="/about" >
+        <a className="nav-link">About</a>
+        </Link>
       </li>
       <li className={ props.active == "skill"?"nav-item active highlight":"nav-item active "}>
-        <a className="nav-link" href="./skills">Skill <span className="sr-only">(current)</span></a>
+      <Link to="/skills" >
+        <a className="nav-link">Skill <span className="sr-only">(current)</span></a>
+        </Link>
       </li>
       <li className={ props.active == "workexperience"?"nav-item active highlight":"nav-item active "}>
-        <a className="nav-link" href="./workexperience">Work Experience</a>
+      <Link to="/workexperience" >
+        <a className="nav-link">Work Experience</a>
+        </Link>
       </li>
       <li className={ props.active == "projects"?"nav-item active highlight":"nav-item active "}>
-        <a className="nav-link" href="./projects">Projects <span className="sr-only">(current)</span></a>
+      <Link to="/projects" >
+        <a className="nav-link">Projects <span className="sr-only">(current)</span></a>
+        </Link>
       </li>
       <li className={ props.active == "contact"?"nav-item active highlight":"nav-item active "}>
-        <a className="nav-link" href="./contact">Contact</a>
+      <Link to="/contact" >
+        <a className="nav-link">Contact</a>
+        </Link>
       </li>
 
     </ul>
