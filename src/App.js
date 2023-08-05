@@ -9,7 +9,7 @@ import {Route , Routes, BrowserRouter} from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter  basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<SplashScreen />} />
         <Route path="/about" element={<About />} />

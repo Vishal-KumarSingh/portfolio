@@ -1,7 +1,7 @@
 
 function SplashScreen() {
   setTimeout(function(){
-        window.location.href="./about";
+        window.location.href="/portfolio/about";
   } , 1500);
   return (
     <div className="SplashScreen">
