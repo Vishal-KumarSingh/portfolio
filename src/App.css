@@ -1,6 +1,6 @@
 * {
   background-color: #edf9fe;
-  font-family: cursive;
+  font-family: 'Playfair Display', serif;
   box-sizing: border-box;
 }
 .SplashScreen {
@@ -65,4 +65,85 @@
 .highlight {
   font-size: 20px;
   border-bottom: 2px solid olivedrab;
+}
+
+.educationlogo {
+  height: 200px;
+  width: 200px;
+ border-radius: 50%;
+ border: 1px solid #d9dbdf;
+ box-shadow: 5px 5px 5px #d9dbdf;
+ padding: 8px;
+}
+.body-side{
+  border: 1px solid #d9dbdf;
+}
+
+.body-header-title * {
+  background-color: #03CEA4;
+}
+.body-header-title {
+  background-color: #03CEA4;
+    padding: 15px;
+}
+.body-header-duration {
+  padding: 15px;
+}
+.body-content {
+  padding: 15px;
+}
+.logo-holder{
+  position: relative;
+  width: 220px;
+}
+.educationlogo {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.content {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.content {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  
+}
+
+.cert-header {
+  display: flex;
+  justify-content: center;
+}
+.cert-card {
+  width: 30%;
+  border: 1px solid green ;
+}
+.certs-main {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
 }

@@ -16,7 +16,11 @@ function Header(props) {
         <a className="nav-link">Home <span className="sr-only">(current)</span></a>
         </Link>
       </li>
-     
+      <li className={ props.active == "workexperience"?"nav-item active highlight":"nav-item active "}>
+      <Link to="/education" >
+        <a className="nav-link">Education</a>
+        </Link>
+      </li>
       <li className={ props.active == "about"?"nav-item active highlight":"nav-item active "}>
       <Link to="/about" >
         <a className="nav-link">About</a>

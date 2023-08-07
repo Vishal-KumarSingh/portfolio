@@ -1,8 +1,12 @@
+import { useNavigate } from "react-router-dom";
 
 function SplashScreen() {
-  setTimeout(function(){
-        window.location.href="/portfolio/about";
-  } , 1500);
+  const navigate = useNavigate();
+  const navigateToAbout = () => {
+    navigate('/about' , {replace: true});
+  }
+  
+  setTimeout( navigateToAbout, 1500);
   return (
     <div className="SplashScreen">
         <div className="splashscreentext">
