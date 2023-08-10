@@ -10,7 +10,9 @@
   height: 100vh;
   position: relative;
 }
-
+.App {
+  overflow-x: hidden ;
+}
 .splashscreentext {
   width: 100%;
   position: absolute;
@@ -146,4 +148,28 @@
   display: flex;
   justify-content: space-between;
   
+}
+
+
+
+
+.navbar-collapse {
+  z-index: 199;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+ svg {
+  max-width: 100%;
+ }
+
+ .degree-card {
+  display: block !important;
+ }
+ .educationlogo {
+  position: relative !important;
+ }
 }

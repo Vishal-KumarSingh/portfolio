@@ -16,7 +16,7 @@ function aboutScreen() {
    
       <div className="row">
       <Fade left>
-        <div className="col-md" style={{padding: "8%"}}>
+        <div className="col-md p-5 mt-1" >
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text" style={{ color: "rgb(0, 28, 85)" }}>
@@ -130,7 +130,7 @@ function aboutScreen() {
         </div>
         </Fade>
         <Fade right> 
-        <div className="col-md">
+        <div className="col-md p-5 mt-1">
           {" "}
           <HeaderImage />
         </div>
@@ -142,13 +142,13 @@ function aboutScreen() {
 
       <div className="row">
       <Fade left>
-        <div className="col-md">
+        <div className="col-md p-5 mt-1">
           {" "}
           <DataScienceImage />
         </div>
        </Fade>
        <Fade right>
-        <div className="col-md" style={{padding: "8%"}}>
+        <div className="col-md p-5 mt-1">
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text" style={{ color: "rgb(0, 28, 85)" }}>
@@ -186,13 +186,13 @@ function aboutScreen() {
 
      <div className="row">
        
-       <div className="col-md">
+       <div className="col-md p-5 mt-1">
          <Fade left >
          <FullStackImage />
          </Fade>
        </div>
       
-       <div className="col-md" style={{padding: "8%"}}>
+       <div className="col-md p-5 mt-1">
        <Fade right >
          <div className="greeting-text-div">
            <div>
@@ -234,14 +234,14 @@ function aboutScreen() {
     
     <div className="row">
        
-       <div className="col-md">
+       <div className="col-md p-5 mt-1">
         <Fade left > 
          
          <CloudImage />
          </Fade>
        </div>
 
-       <div className="col-md" style={{padding: "8%"}}>
+       <div className="col-md p-5 mt-1">
         <Fade right>
          <div className="greeting-text-div">
            <div>

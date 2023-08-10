@@ -2,7 +2,7 @@
 function DegreeCard(props) {
     return (
         
-        <div className="degree-card d-flex p-4 mx-5 my-2">
+        <div className="degree-card d-md-flex p-4 m-5">
 <div className="logo-holder">
 <img
   src={props.logo}

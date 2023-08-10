@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 function Header(props) {
     return (
       <div className="Header"> 
-          <div className="headerbar" style={{height: "15vh" , padding: "5vh"}}>
+          <div className="headerbar p-3">
           <nav className="navbar navbar-expand-lg navbar-light">
   <a className="navbar-brand" href="#">Vishal Kumar Singh</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
